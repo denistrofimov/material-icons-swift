@@ -9,9 +9,42 @@
 Pod::Spec.new do |s|
 
   s.name         = "MaterialIconsSwift"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Material icons font for using in swift"
-  s.description  = "Material icons font for using in swift"
+  s.description  = <<-DESC
+  
+  # material-icons-swift
+  Material icons font for using in swift
+  
+  ## Installation
+  
+  ### CocoaPods
+  
+  ```
+  pod 'MaterialIconsSwift'
+  ```
+  
+  ## Usage
+  
+  Get icon font:
+  
+  ```swift
+  label.font = MaterialIcons.fontOfSize(48)
+  ```
+  
+  Get icon code from name:
+  
+  ```swift
+  label.text = MaterialIcons.icon("view_headline")
+  ```
+  
+  List all icon names:
+  
+  ```swift
+  print("\(MaterialIcons.icons())")
+  ```
+  
+  DESC
   s.homepage     = "https://github.com/denistrofimov/material-icons-swift"
   s.license      = "MIT"
   s.author       = { "Trofimov Denis" => "mail@denistrofimov.com" }
