@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MaterialIconsSwift"
-  s.version      = "0.2.0"
+  s.version      = "0.3.0"
   s.summary      = "Material icons font for using in swift"
   s.description  = <<-DESC
   
