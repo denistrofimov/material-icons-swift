@@ -14,9 +14,9 @@
 		E2188AB41D56018E00777CDD /* MaterialIconsSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MaterialIconsSwift.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2188AC21D56077E00777CDD /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
 		E2188AC31D56077E00777CDD /* MaterialIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialIcons.swift; sourceTree = "<group>"; };
-		E2188AD81D56085500777CDD /* MaterialIconsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialIconsSwift.framework; path = "/Users/denistrofimov/Workspace/denistrofimov/material-icons-swift/build/Debug-iphoneos/MaterialIconsSwift.framework"; sourceTree = "<absolute>"; };
 		E2188ADA1D56085500777CDD /* MaterialIconsSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaterialIconsSwift.h; sourceTree = "<group>"; };
 		E2188ADC1D56085500777CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2188B001D560D2F00777CDD /* MaterialIconsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialIconsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +34,7 @@
 			isa = PBXGroup;
 			children = (
 				E2188AD91D56085500777CDD /* MaterialIconsSwift */,
+				E2188B001D560D2F00777CDD /* MaterialIconsSwift.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +79,7 @@
 			);
 			name = MaterialIconsSwift;
 			productName = MaterialIconsSwift;
-			productReference = E2188AD81D56085500777CDD /* MaterialIconsSwift.framework */;
+			productReference = E2188B001D560D2F00777CDD /* MaterialIconsSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -275,6 +276,7 @@
 				E2188ADF1D56085500777CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
