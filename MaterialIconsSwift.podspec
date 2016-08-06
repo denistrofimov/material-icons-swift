@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MaterialIconsSwift"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Material icons font for using in swift"
   s.description  = "Material icons font for using in swift"
   s.homepage     = "https://github.com/denistrofimov/material-icons-swift"
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/denistrofimov/material-icons-swift.git", :tag => "#{s.version}" }
   s.source_files = "MaterialIconsSwift/MaterialIcons.swift"
-  s.ios.resource_bundle = { 'MaterialIconsResources' => 'MaterialIconsSwift/MaterialIcons-Regular.ttf' }
+  s.resource = "MaterialIconsSwift/MaterialIcons-Regular.ttf"
 
 end

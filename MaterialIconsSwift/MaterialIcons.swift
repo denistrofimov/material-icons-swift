@@ -28,14 +28,13 @@ public class MaterialIcons {
 
     
     private class func dynamicallyLoadFontNamed(name:String) {
-    
-        let bundle = "MaterialIconsResources.bundle"
-        
-        let resourceName = "\(bundle)/\(name)"
 
         guard
-            let url = NSBundle.mainBundle() .URLForResource(resourceName, withExtension: "ttf"),
+            let url = NSBundle(forClass: MaterialIcons.self).URLForResource("\(name)", withExtension: "ttf"),
             let fontData = NSData(contentsOfURL:url) else {
+                
+                print("Failed to register font")
+                
             return
         }
         
