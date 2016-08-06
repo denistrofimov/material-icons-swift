@@ -943,7 +943,7 @@ public class MaterialIcons {
     static let ZoomOut = "\u{e900}"
     static let ZoomOutMap = "\u{e56b}"
     
-    private let _icons = [
+    private static let _icons = [
         "3d_rotation": Rotation3D,
         "ac_unit": AcUnit,
         "access_alarm": AccessAlarm,
